@@ -1,0 +1,60 @@
+  196  grep "PHP;France" < wilders.csv 
+  197  grep "PHP;France" < wilders.csv | wc -l
+  198  grep "France" < wilders.csv | wc -l
+  199  grep "France,PHP,2019" < wilders.csv | wc -l
+  200  grep "PHP" < wilders.csv | wc -l
+  201  grep "PHP""France""2019" < wilders.csv | wc -l
+  202  grep "France,PHP,2019" < wilders.csv | wc -l
+  203  grep "France,2019,PHP" < wilders.csv | wc -l
+  204  touch php_france_2019.csv > 97
+  205  cat php_france_2019.csv
+  206  ls
+  207  ls ~ > php_france_2019.csv 97
+  208  cat php_france_2019.csv
+  209  rm -r php_france_2019.csv
+  210  ls
+  211  echo "97" > php_france_2019.csv
+  212  cat php_france_2019.csv
+  213  grep "Toulouse,Java" < wilders.csv | wc -l
+  214  grep "Toulouse,Javascript" < wilders.csv | wc -l
+  215  grpe "Javascript,Toulouse" < wilders.csv | wc -l
+  216  grep "Javascript,Toulouse" < wilders.csv | wc -l
+  217  grep "Javascript,Toulouse" wilders.csv > JavascriptToulouse.csv
+  218  ls
+  219  cat JavascriptToulouse.csv
+  220  rm -r JavascriptToulouse.csv
+  221  cat wilderS.csv
+  222  cat wilders.csv
+  223  grep "Toulouse;Javascript" < wilders.csv | wc -l
+  224  grep "Toulouse" < wilders.csv 
+  225  grep "Toulouse" < wilders.csv | grep "Javascript" 
+  226  grep --help
+  227  grep "Toulouse" wilders.scv
+  228  grep "Toulouse" wilders.csv
+  229  grep "Toulouse" wilders.csv | grep "Javascript" > Javascript_Toulouse
+  230  cat Javasript_Toulouse
+  231  cat Javascript_Toulouse
+  232  ls
+  233  grep "Toulouse" < wilders.csv | grep "Javascript" 
+  234  cat wilders.csv
+  235  ls
+  236  cat php_france_2019.csv
+  237  rm 97
+  238  ls
+  239  rm Danish.csv Norwegian.csv language.txt Prenoms.csv 
+  240  grep "Toulouse" < wilders.csv | grep "JavaScript"
+  241  grep "Toulouse" < wilders.csv | grep "JavaScript" > Javascript_Toulouse
+  242  cat Javascript_Toulouse 
+  243  grep "Biarritz" wilders.csv | grep "JavaScript" > Javascript_Biarritz
+  244  cat Javascript_Biarritz 
+  245  cat Javascript_Biarritz Javascript_Toulouse | sort -u
+  246  cat Javascript_Biarritz Javascript_Toulouse | sort -u > javascript_biarritz_toulouse.csv
+  247  ls
+  248  cat javascript_biarritz_toulouse.csv 
+  249  history | tail > -n 50 > history.txt
+  250  history | tail > -n 20 > history.txt
+  251  history | tail -n 50 > history.txt
+  252  cat history.txt
+  253  history | tail -n 100 > history.txt
+  254  cat history.txt
+  255  history | tail -n 60 > history.txt
